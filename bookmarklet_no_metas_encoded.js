@@ -1,0 +1,1 @@
+javascript:(function()%7Bconst%20currentUrl%20%3D%20new%20URL(window.location.href)%3BcurrentUrl.searchParams.set(%27page_type%27%2C%20%27no_metas%27)%3Bwindow.location.href%20%3D%20currentUrl.href%3B%7D)()
